@@ -12,8 +12,13 @@ def subtract(num1, num2):
     result = num1 - num2
     return result
 
-def add(num1, num2): 
-    result = num1 + num2
-    return result 
+subtract(9, 3)
+subtract (8, 5)
 
-add(10, 4)
+def add(num1, num2): 
+    result2 = num1 + num2
+    return result2 
+
+result2 = add(10, 4)
+result2 = add(6, 23)
+print (result2)
